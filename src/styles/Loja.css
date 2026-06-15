@@ -1,0 +1,168 @@
+.loja {
+  padding: 40px;
+  background: #f5f7fb;
+  min-height: 100vh;
+}
+
+.loja h1 {
+  color: #1565c0;
+  margin-bottom: 30px;
+}
+
+.produtos-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(250px, 1fr));
+
+  gap: 20px;
+}
+
+.produto-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 3px 12px rgba(0,0,0,.08);
+
+  transition: .3s;
+}
+
+.produto-card:hover {
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.12);
+}
+
+.produto-card h3 {
+  color: #1565c0;
+}
+
+.produto-card h2 {
+  margin: 15px 0;
+}
+
+.produto-card button {
+
+  width: 100%;
+
+  border: none;
+
+  background: #1565c0;
+
+  color: white;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.produto-card button:hover {
+  background: #0d47a1;
+}
+
+.btn-carrinho {
+
+  background: #1565c0;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  margin-bottom: 25px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+}
+
+.btn-carrinho:hover {
+
+  background: #0d47a1;
+}
+
+.topo-loja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn-carrinho {
+  background: #1565c0;
+  color: white;
+
+  border: none;
+
+  padding: 12px 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.btn-carrinho:hover {
+  background: #0d47a1;
+}
+
+.btn-comprar {
+  width: 100%;
+
+  background: #1565c0;
+  color: white;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  margin-top: 15px;
+
+  font-weight: 600;
+}
+
+.btn-comprar:hover {
+  background: #0d47a1;
+}
+
+.btn-comprar:disabled {
+  background: #b0bec5;
+  cursor: not-allowed;
+}
+.loja-acoes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.produto-imagem {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  padding: 8px;
+  box-sizing: border-box;
+}

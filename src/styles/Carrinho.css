@@ -1,0 +1,129 @@
+.carrinho {
+
+  max-width: 900px;
+
+  margin: auto;
+
+  padding: 30px;
+}
+
+.item-carrinho {
+
+  background: white;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  margin-bottom: 15px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+}
+
+.quantidade {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.quantidade button {
+
+  width: 35px;
+  height: 35px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #1565c0;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.btn-remover {
+
+  background: #607d8b;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 15px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.total-carrinho {
+
+  margin-top: 25px;
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 2px 10px rgba(0,0,0,.08);
+
+  text-align: right;
+
+  color: #1565c0;
+
+  font-size: 26px;
+
+  font-weight: 700;
+}
+
+.btn-finalizar {
+
+  background: #1565c0;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px 25px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  margin-top: 20px;
+}
+
+.btn-voltar {
+
+  background: #607d8b;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  margin-bottom: 20px;
+}
+
+.btn-voltar:hover {
+
+  background: #455a64;
+}

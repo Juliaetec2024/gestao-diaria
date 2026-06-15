@@ -1,0 +1,48 @@
+.checkout {
+  padding: 40px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 480px;
+}
+
+.checkout-card h1 {
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.checkout-card input,
+.checkout-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.checkout-card .btn-confirmar {
+  width: 100%;
+  border: none;
+  background: #1565c0;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-card .btn-confirmar:hover {
+  background: #0d47a1;
+}
